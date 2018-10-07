@@ -1,0 +1,53 @@
+/* ************* logo *************  */
+#logo {
+    /* background: #fff; */
+    /* border-bottom: 4px solid #f0b323; */
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-top: 0;
+    position: relative;
+    z-index: 999;
+    height: 85%;
+    overflow: hidden;
+}
+
+/* *************  Navigation bar ************* */
+.navbar-inverse {
+    border-left: 0;
+        border-left-color: currentcolor;
+    background: #4b3789; /* ********* PNF corp color ********* */
+    border-color: #1c50e0;
+    border-radius: 0;
+
+
+/* **************** hover header ***************** */
+
+navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+
+    color: #fff;
+    background-color: #6e3ff5;
+    text-decoration: underline;
+    font-weight: bold;
+    border-radius: 13%;
+
+
+/*********** background color **************/
+.navbar-inverse {
+    border-left: 0;
+    background: #4d1870;
+    border-color: #9e91c6;
+    border-radius: 0;
+    font-weight: bolder;
+    text-decoration: none !important;
+}
+
+/***** login buton *********************/
+button.btn-success, a.btn-success {
+    background: #4d1870;
+    color: #ffffff;
+    border-radius: 0;
+    font-weight: bolder;
+}
+
+
+ 
