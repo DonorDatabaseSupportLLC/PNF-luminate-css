@@ -1,3 +1,5 @@
+<style type="text/css"> 
+
 /* ************* logo *************  */
 #logo {
     /* background: #fff; */
@@ -49,5 +51,48 @@ button.btn-success, a.btn-success {
     font-weight: bolder;
 }
 
+
+/*****  Hide Event title/date/time/Location  ********/       
+div.lo-CalendarDateInfoContainer {
+    display: none;
+}
+
+/*************** logo *************** 
+#logo {
+    /* background: #fff; */
+    /* border-bottom: 4px solid #f0b323; */
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-top: 0;
+    position: relative;
+    z-index: 999;
+    height: 85%;
+    overflow: hidden;
+}
+
+/****** event title ****/
+h2#lo-EventTitle, p.subheading {
+    font-weight: bolder;
+    color: #000000;
+}
+
+
+/************ Subheading **********/
+p.subheading {
+      font-weight: bolder;
+    color: #000000;
+}
+
+
+/**** hide: Please specify the number of guests, including yourself, that will attend: **********/
+#RSVPGuestNumberContainer, .appArea label, .appArea input{
+display:none;
+}
+.appArea table label, .appArea table input{
+display:inline;
+}
+
+
+</style> 
 
  
