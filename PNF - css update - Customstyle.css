@@ -92,6 +92,70 @@ display:none;
 display:inline;
 }
 
+ /***** NOTE: use Editing life CSS file when using these snippets ****************/
+
+
+/**** Header background color: org logo,menu,login, social Icon:  use in wrapper   *********/
+#header {
+background: #9e91c6;
+}
+
+
+/**********  Add this to Social media icon: added to CustomStyle.css   ************/
+#utility #nav-social-icons li a, #RTVirtualConnect #nav-social-icons li a {
+    margin: 12px 4px 0;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #82afde;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 6px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    background-color:whitesmoke
+}
+
+/**** fixes margin issues with social icon - PUSHes down ********/
+#utility #nav-social-icons li a {
+    margin: 30px 4px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #385e9d;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 6px;
+    text-align: center;
+    color: #385e9d;
+
+
+/********** Org logo: use in wrapper ************************** */
+
+#logo {
+    background: #fff;
+    border-bottom: 4px solid #5a078fb8;
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-top: 0;
+    position: relative;
+    z-index: 999;
+    height: 90%;
+    overflow: hidden;
+   }
+
+/**** Font-weight/text-decoration: Main menu register, donate, contact ****/
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+/**** NOT WORKING: Mouse Hover: Main menu register, donate, contact ****/
+.navbar-inverse .navbar-nav>li>a hover {
+    background: blue;
+}
+
 
 </style> 
 

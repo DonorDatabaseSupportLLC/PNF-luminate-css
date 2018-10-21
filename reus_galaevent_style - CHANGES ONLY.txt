@@ -1,0 +1,86 @@
+Saved to GITHUB: reus_galaevent_style.css  
+
+/***** NOTE: use Editing life CSS file when using these snippets ****************/
+
+
+/*****IMPLEMENTED: reus_galaevent_style.css ****: Header BG color: org logo,menu,login, social Icon: ****/
+#header {
+background: #9e91c6;
+}
+
+/****IMPLEMENTED: reus_galaevent_style.css ****: Add this to Social media icon: ************/
+
+#utility #nav-social-icons li a, #RTVirtualConnect #nav-social-icons li a {
+    margin: 12px 4px 0;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #82afde;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 6px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    background-color:whitesmoke
+}
+
+/****IMPLEMENTED: reus_galaevent_style.css ****: Fixes margin issues with social icon - PUSHes down ********/
+#utility #nav-social-icons li a {
+    margin: 30px 4px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #385e9d;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 6px;
+    text-align: center;
+    color: #385e9d;
+
+
+/**** IMPLEMENTED: reus_galaevent_style.css.  Org logo: use in wrapper  ******* */
+
+#logo {
+	background:#fff;
+	border-bottom:4px solid  #4d525a;  /* #f0b323  *** 10/21/208  Abdi Jibri, DDS, LLC Changed */;
+	padding:20px;
+	margin-bottom:-20px;
+	margin-top:0;
+	position:relative;
+	z-index:999;
+	height:90%; /**** 110% *** 10/21/208  Abdi Jibri, DDS, LLC Changed - Fix Logo header to fit  ****/
+	overflow:hidden;
+   }
+
+/**** IMPLEMENTED: reus_galaevent_style.css. Font-weight/text-decoration: Main menu register, donate, contact ****/
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+/**** NOT WORKING: Mouse Hover: Main menu register, donate, contact ****/
+.navbar-inverse .navbar-nav>li>a hover {
+    background: blue;
+}
+
+//*************** 
+#nav-social-icons:hover {
+    background: red;
+]
+
+
+button.btn-success, a.btn-success {
+    background: #5c0d8c;
+    border-color: #5c0d8c;
+    color: #FFFFFF;
+    border-radius: 0;
+    font-weight: 700;/** fix LOGIN button  font weight*****/
+
+************************************************** END CSS **************************************************
+
+Donation form fixes:
+
+1) How to split steps into 3 Screen, rather than showing up all at once:  1. Gift Information 2. Payment Information 3. Review Gift
+2) Issues with mobile: when using mobile and click on 4 lines to show menu, it does not display menu to click on: http://foundation.parknicollet.com/site/Calendar?view=Detail&id=100501
+3)
