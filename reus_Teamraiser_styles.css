@@ -1,0 +1,42 @@
+/*** 10/21/18, NEW. DDS,LLC. Header background color *********/
+#header .navbar {
+    min-height: 0;
+    background: mediumpurple;
+    border-color: mediumpurple;
+}
+
+/*** 10/21/18, NEW. DDS,LLC. Logo *********/
+
+#logo {
+    	background: #fff;
+   	    border-bottom: 2px solid #3e52b5;
+    	padding: 0 20px 20px 20px;
+   	    margin-bottom: -20px;
+    	margin-top: 0;
+    	position: relative;
+    	z-index: 999;
+   	   height: 90% !important; /**** 10/21/18 DDS,LLC. CHANGED. changed from 110% ***/
+    	overflow: hidden;
+      }
+
+
+/****** Social icon font-color and remove underline  ******/
+#utility #nav-social-icons li a {
+    margin: 12px 4px 0;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    font-size:2em !important;
+    padding: 6px;
+    text-align: center;
+    color: #eaf9ff !important;            /* *********** 10/24/2018. DDS, LLC. Changed *********** */
+    text-decoration: none;       /* *********** 10/24/2018. DDS, LLC. NEW *********** */
+}
+
+/****** Social icon font-color -mouse hover  ******/
+#utility #nav-social-icons li a:hover {
+    color: #e20c2b !important;   /***** 10/24/2018. DDS, LLC. Changed  ******/
+    
+}
+ 
