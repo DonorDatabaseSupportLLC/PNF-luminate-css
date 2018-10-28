@@ -1,0 +1,74 @@
+<div id="page">
+<div id="header">
+<div class="container">
+<div class="navbar row">
+<div class="navbar-header col-sm-4 col-xs-12">
+					<button class="navbar-toggle">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar">&nbsp;</span>
+						<span class="icon-bar">&nbsp;</span>
+						<span class="icon-bar">&nbsp;</span>
+					</button>
+<h1 id="logo"><convio:session name="51" param="reus_bepink_logo"></convio:session></h1>
+</div>
+<div class="col-sm-8 col-xs-12 pull-right">
+<div id="header-nav" class="collapse navbar-collapse">
+<div id="utility" class="navbar-right">
+<div class="profile-info">
+								[[?xxnullxx::x[[S1:user_name]]x::
+								<form id="LogonForm" class="form-inline navbar-form navbar-left" name="LogonForm" action="UserLogin?fr_id=[[S80:trID]]" method="post" target="_top">
+									<input id="pg" name="pg" type="hidden" value="pfind" />
+									<input id="submit" name="submit" type="hidden" value="true" />
+									<input name="NEXTURL" type="hidden" value="[[S8]]" />
+<div class="form-group">
+										<label class="sr-only" for="USERNAME">Username</label>
+										<input id="USERNAME" class="ghost-text login-textfield form-control" name="USERNAME" type="text" />
+									</div>
+<div class="form-group">
+										<label class="sr-only" for="Password">Password</label>
+										<input id="Password" class="ghost-text login-textfield form-control" name="Password" type="password" />
+									</div>
+<button id="button" class="btn btn-success">Login</button>
+								</form>
+								::
+
+<ul id="nav-user" class="nav navbar-nav">
+<li><a href="TRC/Events/General/?pg=center&amp;fr_id=[[S80:trID]]">Welcome[[?xx::x[[S1:first_name]]x:::: [[S1:first_name]]]]!</a></li>
+<li><a class="button btn-success" href="UserLogin?logout=&amp;NEXTURL=[[T1:[[S8]]]]">Log out</a></li>
+<li><a class="button btn-success" href="TRC/Events/General/?pg=center&amp;fr_id=[[S80:trID]]" target="_blank">Participant Center</a></li>
+</ul>
+]]
+								<convio:session name="51" param="reus_bepink_socialicons"></convio:session>
+							</div>
+</div>
+<div id="nav" class="navbar navbar-inverse">
+							<convio:session name="51" param="reus_bepink_globalnavigation"></convio:session>
+						</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="content" class="container">
+<div id="content-inner" class="row">
+<div id="content-secondary" class="col-sm-3">
+<div id="section-share" class="sidebar-group">
+<h2>Share</h2>
+<span class="st_sharethis_large">&nbsp;</span>
+					<span class="st_facebook_large">&nbsp;</span>
+					<span class="st_twitter_large">&nbsp;</span>
+					<span class="st_email_large">&nbsp;</span>
+				</div>
+</div>
+<div id="content-primary" class="col-sm-9">
+				<convio:session name="63" param="3"></convio:session>
+			</div>
+</div>
+</div>
+<div id="footer">
+<div class="container">
+			<convio:session name="51" param="reus_bepink_footer"></convio:session>
+		</div>
+</div>
+</div>
+<div id="hidden-scripts"><convio:session name="51" param="reus_Teamraiser_javascript"></convio:session></div>
