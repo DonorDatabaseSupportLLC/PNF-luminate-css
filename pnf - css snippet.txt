@@ -1,0 +1,40 @@
+//*************** 
+#nav-social-icons:hover {
+    background: red;
+}
+
+/**********  Add this to Social media icon: added to CustomStyle.css   ************/
+#utility #nav-social-icons li a, #RTVirtualConnect #nav-social-icons li a {
+    margin: 12px 4px 0;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #82afde;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 6px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    background-color:whitesmoke
+}
+
+
+/****Hide Event number of guests ***********/
+#RSVPGuestNumberContainer, .appArea label, .appArea input{
+display:none;
+}
+.appArea table label, .appArea table input{
+display:inline;
+}
+
+/**** hide: Please specify the number of guests, including yourself, that will attend: **********/
+#RSVPGuestNumberContainer, .appArea label, .appArea input{
+display:none;
+}
+.appArea table label, .appArea table input{
+display:inline;
+}
+
+/*****  Hide Event title/date/time/Location  ********/       
+div.lo-CalendarDateInfoContainer {
+    display: none;
+}
