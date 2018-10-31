@@ -1,4 +1,5 @@
 <style type="text/css"><!--
+  
 /* V2.0*/
 
 body {
@@ -227,7 +228,7 @@ margin:0 0 10px;
 
 
 #utility #nav-social-icons li a {
-/* margin: 12px 4px 0;  **** Abdi Jibri, Consultant of DDS, LLC changed ****/
+/* margin: 12px 4px 0;  **** DDS, LLC changed ****/
 margin: 30px 4px 0
 width: 35px;
 height: 35px;
@@ -238,10 +239,12 @@ padding: 6px;
 text-align: center;
 color: #385e9d;
 }
+
 #utility #nav-social-icons li a:hover {  
-border-color: #f0b323;
-color: #f0b323;
+border-color: #e40726;          /*** DDS,LLC changed. color/border-color #f0b323 ; ***/
+color:#e40726;
 text-decoration: none;
+background-color: #fff !important;
 }
 
 
@@ -417,19 +420,20 @@ padding-bottom:10px;
 }
 }
 #content img {
-display: block;
+display: inline;               /***** DDS,LLC. changed on 10-30-2018 *****block;*****/
 max-width: 100%;
 height: auto;
+vertical-align: middle; /***** DDS,LLC. New on 10-30-2018 *****block;*****/
 }
 
 #footer {
 text-align:center;
 font-size:12px;
-background:#fff;
+background:#6b6bae; /* DDS,LLC updated. 10/27/18 */
 }
 #footer .container { /* REUS_GALAEVENT_STYLE.CSS - UPDATE DDS,LLC 10/27/2018 */
 padding-top: 3px;
-background: #6b6bae;
+/* background: #6b6bae;   ***** DDS,LLC updated. 10/27/18 */
 color: white;
 font-weight: normal;
 padding-bottom: 3px;
@@ -1521,4 +1525,3 @@ width: 300px;
   
 -->
 <!--[endif] -->
-     
