@@ -166,9 +166,11 @@ text-transform:uppercase;
 
 /* 10/21/18. New. DDS,LLC added. Login button Mouse hover snippet  */
 .btn-success#button:hover {
-  background: #1f9d55;
-  border-color: #1f9d55;
-  border-radius: 5px;
+background: #FFF8DC;
+border-color: #FFF8DC;
+border-radius: 5px;
+color: #F03209;
+font-weight: bold;
 }
 
 #utility .navbar-nav a.btn-success:hover {
@@ -246,8 +248,9 @@ color: #385e9d;
 }
 
 #utility #nav-social-icons li a:hover {  
-border-color: #4d1870;          /*** 11/4/18. DDS,LLC changed. color/border-color #f0b323 ; ***/
-color:#228B22;
+         /*** 11/4/18. DDS,LLC changed. color/border-color #f0b323 ; ***/
+border-color: #3460d4;
+color: #D72A11;
 text-decoration: none;
 background-color: #fff !important;
 }
@@ -700,11 +703,13 @@ padding:8px 12px;
 
 /********** 10/21/18. New. DDS,LLC added. MAIN MENU Mouse hover BG color *********/
 .navbar-inverse .navbar-nav > li > a:hover {
-color: #fff;
-background: #1f9d55;
-text-decoration: underline;
-border-radius: 5px;
-border-color: #1f9d55;
+  color: #F03209;
+  background: #FFF8DC !important;
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: #FFF8DC;
+  transform: scale(1.1, 1);
+  font-weight: normal;
 }
 
 
