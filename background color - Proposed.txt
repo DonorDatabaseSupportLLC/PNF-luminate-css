@@ -1,0 +1,7 @@
+--background color for all pages 
+
+.pages{
+background: #9e91c6;     /***  original      ***/
+background: #6b6bae ;    /***  Events        ***/
+background: #8167d0      /***  TeamRaisers   ***/
+}

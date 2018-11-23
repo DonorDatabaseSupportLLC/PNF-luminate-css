@@ -88,6 +88,21 @@ margin:0;
 max-height:100%;
 padding:0;
 }
+ } 
+
+/***** 11/23/18. Update. DDS,LLC  ****/
+a.btn, a.btn:visited, a.editBtn, a.editBtn:visited, input.btn, input.btnMini, input.btnSm, input.btnMed, input.btnLg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	/* background: #0468ab url(../images/ga/btn_primary.gif) no-repeat 0px 0px; */
+        background: #385e9d !important; 
+	border: 1px solid #046;
+	padding: 1px 4px;
 }
 
 /*** #Logo. DDS,LLC. Updated. 11/11/2018 ***/
@@ -936,6 +951,8 @@ padding:10px 0 0;
 a#sidebar_donate_button {
 margin:0 0 10px;
 color:#fff;
+background: #8167d0;      /*** DDS,LLC. 11/23/18. New. ***/
+border-color: #8167d0;    /*** DDS,LLC. 11/23/18. New. ***/
 }
 div.tr-status-indicator-container + div.tr-status-indicator-container {
 margin-top:10px;
@@ -1162,10 +1179,10 @@ button#fr_find_search {
 width:auto;
 }
 div#content button.search-button {
-background:#9e91c6;
+background:#8167d0;  /**** DDS,LLC. 11/23/18. #9e91c6;  *****/
 height:auto !important;
 width:auto;
-font-size:14px;
+font-size: 14px;
 }
 div#find_participant span#participant_find_search_text, div#find_participant span#team_find_search_text {
 display:inline;
@@ -1345,7 +1362,11 @@ div.donor-list-indicator-container .indicator-container {
 border-top: 1px solid #ccc;
 padding:10px 0 0;
 }
-div.donor-wall-link-container {
+
+/*** 11/23/18. DDS,LLC. New. Make A Gift & FULL DONOR LIST  ***/
+div.donor-wall-link-container, a.donor-wall-link.indicator-link {
+background: #385e9d !important;
+text-align: center;
 padding:5px 0;
 }
 
@@ -1479,7 +1500,7 @@ color: #fff !important;
 }
 
 div#find_participant div.list-component-body div.list-component-cell-column-donate a {
-background-color: #9e91c6;
+background-color: #8167d0;  /***** DDS,LLC. Changed. 11/23/18. #9e91c6;  *****/
     background-image: none;
     border: 1px solid #ffffff;
     border-radius: 0;
@@ -1503,7 +1524,11 @@ color:#4d525a;
 /*************** Calendar Events ***************/
 
 .fieldContainer label { color: #555; }
-th.lc_Heading, th.lc_HeadingSort { background-color: #9e91c6; color: #fff; }
+th.lc_Heading, th.lc_HeadingSort {
+background-color: #8167d0; /*** DDS,LLC. 11/23/18. Changed. ****/
+color: #fff; 
+
+}
 th.lc_Heading p { color: #fff; }
 #lo-additional-gift-value-container { margin-bottom:1.5em; }
 
