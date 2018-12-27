@@ -452,9 +452,10 @@ padding-bottom:10px;
 }
 }
 #content img {
-display: block;
+display: inline;   /**  DDS,LLC. changed on 10-30-2018 *****block;  **/
 max-width: 100%;
 height: auto;
+vertical-align: middle; /** DDS,LLC. New on 10-30-2018  **/
 }
 
 /**** 12/26/18. DDS,LLC. Change font/BG color from black/white to white/pink *****/ 
@@ -472,6 +473,62 @@ padding-top: 5px;
 #footer p {
 margin: 0 0 20px;
 }
+
+/******** DDS,LLC. 12/27/18. New. donation page css ******** BEGIN **/
+div.reg-summary-thanks-common-container div.action-button-container,
+#reg_payment_page #billing_addr_street1_row input,
+#reg_payment_page #billing_addr_street2_row input,
+#employer_street_row input,
+#billing_addr_street1_row input,
+#billing_addr_street2_row input,
+#billing_addr_street3_row input,
+#billing_addr_country_row input.ui-autocomplete-input,
+#donor_addr_street1_row input,
+#donor_addr_street2_row input,
+#donor_addr_street3_row input,
+#donor_addr_country_row input.ui-autocomplete-input,
+#shipping_addr_street1_row input,
+#shipping_addr_street2_row input,
+#shipping_addr_street3_row input,
+#shipping_addr_country_row input.ui-autocomplete-input,
+#tribute_notify_recip_street1_row input,
+#tribute_notify_recip_street2_row input,
+#tribute_notify_recip_street3_row input,
+#tribute_notify_recip_country_row input.ui-autocomplete-input,
+#tribute_signature_row input,
+#tribute_message_closing_row input,
+div.employer-address-container input#employer_street,
+input#billing_last_namename,
+input#billing_first_namename,
+input#donor_email_addressname,
+input#donor_phonename {
+width: 400px !important;  
+}
+
+
+/* DDS,LLC. 12.2.18. NEW. Uses Donation form - puts month/year Credit card in one line */
+#responsive_payment_typecc_exp_date_MONTH, #responsive_payment_typecc_exp_date_YEAR {
+    width: auto !important;
+    display: inline-block !important;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #e5dede inset;
+    padding: 5px 7px;
+    margin-bottom: 5px;
+    background: white;
+}
+
+/* DDS,LLC. 12.2.18. NEW. inline.css PNF General Donation page - Use it as template   */
+div.responsive input, div.responsive select {
+	border: 1px solid #D9D6CF;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #F0F0F0 inset;
+	padding: 5px 7px;
+	margin-bottom: 5px;
+	background: #fff;
+}
+ 
+/******** DDS,LLC. 12/27/18. New. donation page css ******** BEGIN **/
 
 #content-inner {
 padding:25px 0;
@@ -895,6 +952,35 @@ background: #f0b323;
 border-color: #f0b323;
 color: #FFFFFF;
 }
+
+/** start ***
+
+/** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size/hover/bG color **/
+div.responsive button.next-step:hover,
+div.responsive button.cancel-step:hover, 
+div.responsive button.secondary-step:hover  
+{
+background: #e4d6d6  !important;
+border-color: #e4d6d6 !important;
+color: #082bf0  !important;
+border-radius: 5px !important;
+height: 50px !important;
+font-weight: 650 !important;
+}
+
+/** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size Matching **/
+div.responsive button.next-step, 
+div.responsive button.cancel-step,
+div.responsive button.secondary-step 
+{
+height: 50px !important;
+background: #865fa7 !important;
+border-color: #865fa7 !important;
+font-weight: 700 !important;
+border-radius: 8px !important;
+}
+/*** End ****/
+
 div.tr-page-container #entry_page_custom_html {
 padding:0 20px 20px 0;
 }
@@ -1389,6 +1475,16 @@ a.donor-wall-link.indicator-link:hover
   font-weight:900 !important; 
   font-family: Verdana !important;
   font-size: 30px !important;
+}
+
+
+
+/** DDS,LLC. 12/27/18. New. Participant/Team member(s) Font color/size **/
+a.indicator-link:hover 
+{
+color: #f0230a !important;
+font-size: medium !important;
+font-weight: 600 !important;
 }
 
 
