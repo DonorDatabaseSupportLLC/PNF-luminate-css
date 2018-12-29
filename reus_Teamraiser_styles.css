@@ -506,7 +506,7 @@ width: 400px !important;
 }
 
 
-/* DDS,LLC. 12.2.18. NEW. Uses Donation form - puts month/year Credit card in one line */
+/* DDS,LLC. 12.27.18. NEW. Uses Donation form - puts month/year Credit card in one line */
 #responsive_payment_typecc_exp_date_MONTH, #responsive_payment_typecc_exp_date_YEAR {
     width: auto !important;
     display: inline-block !important;
@@ -518,7 +518,7 @@ width: 400px !important;
     background: white;
 }
 
-/* DDS,LLC. 12.2.18. NEW. inline.css PNF General Donation page - Use it as template   */
+/* DDS,LLC. 12.27.18. NEW. inline.css PNF General Donation page - Use it as template   */
 div.responsive input, div.responsive select {
 	border: 1px solid #D9D6CF;
 	border-radius: 5px;
@@ -528,7 +528,7 @@ div.responsive input, div.responsive select {
 	background: #fff;
 }
  
-/******** DDS,LLC. 12/27/18. New. donation page css ******** BEGIN **/
+/******** DDS,LLC. 12/2/18. New. donation page css ******** BEGIN **/
 
 #content-inner {
 padding:25px 0;
