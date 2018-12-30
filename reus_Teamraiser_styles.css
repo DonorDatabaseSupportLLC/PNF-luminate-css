@@ -528,7 +528,39 @@ div.responsive input, div.responsive select {
 	background: #fff;
 }
  
-/******** DDS,LLC. 12/2/18. New. donation page css ******** BEGIN **/
+/******** DDS,LLC. 12/2/18. New. donation page css ******** END **/
+
+
+/******** DDS,LLC. 12/29/18. New. Team page css ******** BEGIN **/
+/***  DDS,LLC. 12/29/18. New. Mouse Hover ***/
+.team-roster-participant-name > a:hover 
+{
+ color: red !important;
+ text-decoration: none;
+ font-weight: 700;
+}
+/******** DDS,LLC. 12/29/18. New. Team page css -participants names font-color */
+.team-roster-participant-name > a 
+{
+color: #1e32ec !important;
+text-decoration: none;
+}
+
+/** DDS,LLC. 12/29/18. New. DONATION NOW button in Team page Mouse Hover **/
+#sidebar_donate_button:hover 
+{
+background: #d0c9c9;
+color: #f70b0b !important;
+font-weight: 700;
+border-width: 1px;
+border-color: #f40503;
+border-radius: 5px;
+}
+
+/******** DDS,LLC. 12/29/18. New. Team page css ******** END **/
+
+
+
 
 #content-inner {
 padding:25px 0;
