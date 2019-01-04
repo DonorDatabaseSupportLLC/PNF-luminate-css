@@ -1,6 +1,6 @@
 <style type="text/css"><!--
   
-/* V3.1*/
+/* V3.2*/
 
 body {
 color:#4d525a;
@@ -902,10 +902,12 @@ color: #FFFFFF;
 
 
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size/hover/bG color **/
-
 div.responsive button.next-step:hover,
 div.responsive button.cancel-step:hover, 
-div.responsive button.secondary-step:hover  
+div.responsive button.secondary-step:hover,
+/* div.responsive button.pstep_previous:hover,*/
+div.responsive button.finish-step:hover,
+div.responsive button.previous-step:hover 
 {
 background: #e4d6d6  !important;
 border-color: #e4d6d6 !important;
@@ -915,10 +917,18 @@ height: 50px !important;
 font-weight: 650 !important;
 }
 
+/** DDS,LLC. 1/3/19. Changed. Cancel/Next Button size Matching **/
+button#pstep_previous {
+    margin-right: 200px !important;
+}
+
+
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size Matching **/
 div.responsive button.next-step, 
 div.responsive button.cancel-step,
-div.responsive button.secondary-step 
+div.responsive button.secondary-step,
+div.responsive button.finish-step,
+div.responsive button.previous-step
 {
 height: 50px !important;
 background: #865fa7 !important;
