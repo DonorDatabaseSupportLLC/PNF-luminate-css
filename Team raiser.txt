@@ -1,8 +1,0 @@
-
-/* teamraiser Welcome <name> logout Participant center */
-#utility .navbar-nav a {
-    padding: 3px 8px;
-    margin: 12px 0 12px 5px;
-    color: #ffffff !important;
-    font-weight: bold;
-    text-decoration: none;
