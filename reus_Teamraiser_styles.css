@@ -1,6 +1,6 @@
 <style>
 
-/* V3.0*/
+/* V3.1*/
 
 body {
 color:#4d525a;
@@ -47,6 +47,57 @@ padding:0;
 }
 #header .row > div:last-child {
 float:right;
+}
+
+
+/* 1/19/19. DDS,LLC. New. */ 
+/* Get Started: Join or Form Team link at bottom of page */
+/* I would like to join Existing team/participant as individual */
+a#existing_team_container
+, a#individual_container
+, a#new_team_container 
+{
+    color: #001dff !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    background: #eceaea !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    border-style: outset !important;
+}
+
+a#existing_team_container:hover
+, a#individual_container:hover 
+, a#new_team_container 
+{
+    color: #ea1d1d !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    background:  #f9f8f8 !important;
+    padding: 5px  !important;
+    border-radius: 5px  !important;
+    border-style: outset !important;
+}
+
+/* 1/19/19. DDS,LLC. New. Donation form padding-Right: */
+.donation-form-content 
+{
+ padding-left: 150px;
+}
+
+
+/* 1/19/19. DDS,LLC. Update. personal page (Teamname link): Font-color/text */
+#personal_page_team_page_link:hover {
+font-weight: 600;
+color: #e81d71;
+}
+
+
+/*** 1/19/19. DDS,LLC. Update. personal page (Teamname link): Font-color/text ***/
+#personal_page_team_page_link 
+{	
+color: blue;	
+text-decoration: none;
 }
 
 /**** #header. DDS,LLC. Changed. 11/11/2018 *****/
@@ -546,10 +597,10 @@ color: #1e32ec !important;
 text-decoration: none;
 }
 
-/** DDS,LLC. 12/29/18. New. DONATION NOW button in Team page Mouse Hover **/
+/** DDS,LLC. 1/19/18. New. DONATION NOW button in Team page Mouse Hover **/
 #sidebar_donate_button:hover 
 {
-background: #d0c9c9;
+background: #fffefe;
 color: #f70b0b !important;
 font-weight: 700;
 border-width: 1px;
@@ -645,11 +696,13 @@ margin:0 0 10px;
 }
 }
 
+/* 1/19/19. DDS,LLC. Update. Remove sponsor container */
 #sponsors {
 padding:20px 0;
 border-top:1px solid #d3d2d1;
 border-bottom:2px solid #d3d2d1;
 background:#fff;
+Display:none;
 }
 #sponsors ul.nav {
 margin:0 -10px;
@@ -741,21 +794,34 @@ text-decoration:none;
 }
 
 /* BOOTSTRAP OVERRIDES */
+
+/* 1/19/19. DDS,LLC. Removed font color.  */
 h1,
 .header-container h2,
 div.tr-page-header h2,
 div#team_page_header h2 {
-color:#f0b323;
+/* color:#f0b323; */
 font-size:26px;
 font-weight:normal;
 font-family: Myriad Pro, sans-serif !important;
 margin:0 0 15px;
 }
-h2 {
-color:#9e91c6;
+
+/* 1/19/19. DDS,LLC. Update. H2 font color */
+h1{
+color:#7920be !important;
 font-size:18px;
 font-family: Myriad Pro, sans-serif !important;
 }
+
+ /*1/19/19. DDS,LLC. Update. H2 font color */
+h2 {
+color:#7920be;
+font-size:18px;
+font-family: Myriad Pro, sans-serif !important;
+}
+
+
 h3 {
 color:#333;
 font-size:14px;
@@ -1667,9 +1733,11 @@ background-color: #8167d0;  /***** DDS,LLC. Changed. 11/23/18. #9e91c6;  *****/
 .donor-wall-link, .donor-wall-link:link, .donor-wall-link:visited {
 color:#ffffff !important;
 }
-
+/* 1/19/19. DDS,LLC. Update/New. font-color logout/participant ctr/welcome <user> */
 #utility .navbar-nav a {
-color:#4d525a;
+   color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 /*************** Calendar Events ***************/
