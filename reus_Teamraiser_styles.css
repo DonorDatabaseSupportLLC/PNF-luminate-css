@@ -49,6 +49,12 @@ padding:0;
 float:right;
 }
 
+/* 1/19/19. DDS,LLC. New. Team name of Team page */ 
+#team_name 
+{
+ margin-top: 0;
+ font-weight: 700;
+}
 
 /* 1/19/19. DDS,LLC. New. */ 
 /* Get Started: Join or Form Team link at bottom of page */
@@ -68,7 +74,7 @@ a#existing_team_container
 
 a#existing_team_container:hover
 , a#individual_container:hover 
-, a#new_team_container 
+, a#new_team_container:hover
 {
     color: #ea1d1d !important;
     font-weight: 600 !important;
@@ -1056,7 +1062,8 @@ color: #FFFFFF;
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size/hover/bG color **/
 div.responsive button.next-step:hover,
 div.responsive button.cancel-step:hover, 
-div.responsive button.secondary-step:hover  
+div.responsive button.secondary-step:hover
+, div.responsive button.previous-step:hover  
 {
 background: #e4d6d6  !important;
 border-color: #e4d6d6 !important;
@@ -1069,7 +1076,8 @@ font-weight: 650 !important;
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size Matching **/
 div.responsive button.next-step, 
 div.responsive button.cancel-step,
-div.responsive button.secondary-step 
+div.responsive button.secondary-step,
+div.responsive button.previous-step
 {
 height: 50px !important;
 background: #865fa7 !important;
