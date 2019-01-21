@@ -34,6 +34,15 @@ input.Button:hover {
 
 div.maincontent p {
     /* margin: 20px 0px; */
+}
+
+
+.ShoppingCartContents {
+    background-color: #d8e0eB;
+    padding: 4px 4px;
+    /* width: 100%; */
+    /* border: 1px solid #466172; */
+}
 
 
 http://foundation.parknicollet.com/site/Ecommerce?store_id=1101
