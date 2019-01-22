@@ -464,11 +464,15 @@ height: auto;
 vertical-align: middle; /***** DDS,LLC. New on 10-30-2018 *****block;*****/
 }
 
-#footer {
-text-align:center;
-font-size:12px;
-background:#6b6bae; /* DDS,LLC updated. 10/27/18 */
+#footer 
+{
+text-align: center;	
+font-size: 16px;
+background: #6b6bae;
+padding-top: 20px;
+border-radius: 6px;
 }
+
 #footer .container { /* REUS_GALAEVENT_STYLE.CSS - UPDATE DDS,LLC 10/27/2018 */
 padding-top: 3px;
 /* background: #6b6bae;   ***** DDS,LLC updated. 10/27/18 */
