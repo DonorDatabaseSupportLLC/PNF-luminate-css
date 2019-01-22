@@ -1,6 +1,6 @@
 <style type="text/css"><!--
   
-/* V3.2*/
+/* V3.1*/
 
 body {
 color:#4d525a;
@@ -34,10 +34,8 @@ height:auto !important;
 }
 #header {
 /******* 10/21/18. Abdi Jibril, DDS,LLC removed ***********/
-/*
-background:#ffffff url('../teamraiser-themes/theme1/images/bg-pattern-diagonal.png');
-*/
-background: #6b6bae;    /* REUS_GALAEVENT_STYLE.CSS - UPDATE DDS,LLC 10/27/2018 */
+/*background:#ffffff url('../teamraiser-themes/theme1/images/bg-pattern-diagonal.png');*/
+/* background: #6b6bae; */ /* REUS_GALAEVENT_STYLE.CSS - UPDATE DDS,LLC 10/27/2018 */
 }
 #header .row {
 margin:0;
@@ -52,9 +50,16 @@ float:right;
 #header .navbar {
 min-height:0;
 }
-#header-nav {
-padding:0;
+/* 1/21/19. DDS,LLC. New. logo bg color & top menu */
+#header-nav 
+{
+background: #6b6bae;
+padding-top: 5px;
+padding-left: 40px;
+border-radius: 8px;
+padding-right: 30px;
 }
+
 #header .navbar-header {
 position:absolute;
 height:100%;
@@ -85,19 +90,20 @@ max-height:100%;
 padding:0;
 }
 }
+/***** 1/21/19. DDS,LLC. Update. Logo fix due to branding BG color be white *****/
 #logo {
-	background:#fff;
-	border-bottom:2px solid  #4d525a;  /* #f0b323  *** 10/21/208  Abdi Jibri, DDS, LLC Changed */;
-	padding:20px;
-	margin-bottom:-20px;
-	margin-top:0;
-	position:relative;
-	z-index:999;
-	/* height:90%; */ /**** 110% *** 11/8/208  Abdi Jibri, DDS, LLC Changed - Fix Logo header to fit  ****/
-	overflow:hidden;
-        width: 85% !important;
-        height: 85% !important;
-        border-radius: 3px !important;
+	background: #fff;
+	/* border-bottom: 2px solid #4d525a; */
+	padding: 20px;
+	margin-bottom: -20px;
+	margin-top: 0;
+	position: relative;
+	z-index: 999;
+	/* height: 90%; */
+	overflow: hidden;
+	width: 95% !important;
+	height: 95% !important;
+	border-radius: 8px !important;
 
 }
 #logo a,
