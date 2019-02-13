@@ -37,6 +37,12 @@ height:auto !important;
 /*background:#ffffff url('../teamraiser-themes/theme1/images/bg-pattern-diagonal.png');*/
 /* background: #6b6bae; */ /* REUS_GALAEVENT_STYLE.CSS - UPDATE DDS,LLC 10/27/2018 */
 }
+/**  2/12/19. Abdi Jibril, DDS,LLC Register event button - TOP button ***/
+#register_top:hover 
+{
+ transform: scale(1.2);
+}
+
 #header .row {
 margin:0;
 border:0;
@@ -283,6 +289,7 @@ border-color: #3460d4;
 color: #D72A11;
 text-decoration: none;
 background-color: #fff !important;
+transform: scale(1.3);
 }
 
 
