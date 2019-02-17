@@ -469,6 +469,7 @@ display: inline;               /***** DDS,LLC. changed on 10-30-2018 *****block;
 max-width: 100%;
 height: auto;
 vertical-align: middle; /***** DDS,LLC. New on 10-30-2018 *****block;*****/
+margin: 10px;
 }
 
 #footer 
@@ -754,7 +755,7 @@ padding:8px 12px;
 }
 
 /* 2/9/19. DDS,LLC. New. Regiter buttons CSS */
-.Button {
+.Button,#PARSE_PAYMENT_FORM {
 	margin-left: 20px;
 	margin-right: 20px;
 	background: #6b6bae;
@@ -765,7 +766,7 @@ padding:8px 12px;
 	padding-right: 10px;
 	font-weight: 700;
 }
-.Button:hover {
+.Button:hover,#PARSE_PAYMENT_FORM:hover {
 	background: #fff;
 	color: red;
 }
