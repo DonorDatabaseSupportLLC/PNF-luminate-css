@@ -1,5 +1,5 @@
 <style type="text/css"><!--
-  
+
 /* V3.1*/
 
 body {
@@ -38,7 +38,7 @@ height:auto !important;
 /* background: #6b6bae; */ /* REUS_GALAEVENT_STYLE.CSS - UPDATE DDS,LLC 10/27/2018 */
 }
 /**  2/12/19. Abdi Jibril, DDS,LLC Register event button - TOP button ***/
-#register_top:hover 
+#register_top:hover
 {
  transform: scale(1.2);
 }
@@ -57,7 +57,7 @@ float:right;
 min-height:0;
 }
 /* 1/21/19. DDS,LLC. New. logo bg color & top menu */
-#header-nav 
+#header-nav
 {
 background: #6b6bae;
 padding-top: 5px;
@@ -116,7 +116,7 @@ padding:0;
 #logo p {
 display:block;
 position:relative;
-width:100%; 
+width:100%;
 height:100%;  /* ********* DDS,LLC. 11/8/2018 ********* */
 }
 #logo img {
@@ -128,6 +128,7 @@ top:0;
 margin:auto 0;
 max-width:100%;
 display:block;
+height:90%;
 }
 @media (max-width: 767px) {
 #logo {
@@ -283,7 +284,7 @@ text-align: center;
 color: #385e9d;
 }
 
-#utility #nav-social-icons li a:hover {  
+#utility #nav-social-icons li a:hover {
          /*** 11/4/18. DDS,LLC changed. color/border-color #f0b323 ; ***/
 border-color: #3460d4;
 color: #D72A11;
@@ -295,7 +296,7 @@ transform: scale(1.3);
 
 /* ****10/21/2018: NEW. Abdi Jibri, Consultant of DDS, LLC Added change  ****/
 #utility #nav-social-icons li a, #RTVirtualConnect #nav-social-icons li a {
-    margin: 30px 4px 0;  
+    margin: 30px 4px 0;
     width: 35px;
     height: 35px;
     border: 2px solid #82afde;
@@ -336,7 +337,7 @@ margin:0 0 10px;
 #nav.navbar-inverse .navbar-nav>.active>a,
 #nav.navbar-inverse .navbar-nav>.active>a:hover,
 #nav.navbar-inverse .navbar-nav>.active>a:focus {
-margin-top:0;	
+margin-top:0;
 margin-bottom:0;
 }
 }
@@ -472,9 +473,9 @@ vertical-align: middle; /***** DDS,LLC. New on 10-30-2018 *****block;*****/
 margin: 10px;
 }
 
-#footer 
+#footer
 {
-text-align: center;	
+text-align: center;
 font-size: 16px;
 background: #6b6bae;
 padding-top: 20px;
@@ -703,7 +704,7 @@ border-color:#049cc6;
 }
 button.btn-success,
 a.btn-success {
-background: #5f134e;   /** 10/21/18: Abdi Jibril, DDS,LLC. NEW. LOGIN button font weight*****/ 
+background: #5f134e;   /** 10/21/18: Abdi Jibril, DDS,LLC. NEW. LOGIN button font weight*****/
 border-color: #5f134e;
 color: #FFFFFF;
 border-radius:0;
@@ -937,11 +938,11 @@ color: #FFFFFF;
 
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size/hover/bG color **/
 div.responsive button.next-step:hover,
-div.responsive button.cancel-step:hover, 
+div.responsive button.cancel-step:hover,
 div.responsive button.secondary-step:hover,
 /* div.responsive button.pstep_previous:hover,*/
 div.responsive button.finish-step:hover,
-div.responsive button.previous-step:hover 
+div.responsive button.previous-step:hover
 {
 background: #e4d6d6  !important;
 border-color: #e4d6d6 !important;
@@ -958,7 +959,7 @@ button#pstep_previous {
 
 
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size Matching **/
-div.responsive button.next-step, 
+div.responsive button.next-step,
 div.responsive button.cancel-step,
 div.responsive button.secondary-step,
 div.responsive button.finish-step,
@@ -1491,7 +1492,7 @@ div.registration-page-container div.sub-section-body {
 .sponsors-footer a img:hover, .tr-social-icon:hover { opacity: 0.75 !important; }
 #nav-social-icons a:hover { background-color:transparent !important; }
 
-#nav li:hover { 
+#nav li:hover {
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
 background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 100%); /* FF3.6+ */
@@ -1503,7 +1504,7 @@ background-image: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#4dffffff',GradientType=0 ); /* IE6-8 */
  }
 
-.button.btn-primary.btn-block.btn-lg:hover, button.btn-success:hover, a.btn-success:hover, div#content button.search-button:hover, div.responsive a.next-step:hover, div.responsive button.next-step:hover, div.responsive button.cancel-step:hover, div.responsive a.cancel-step:hover, div.responsive button.previous-step:hover, div.responsive a.previous-step:hover  { 
+.button.btn-primary.btn-block.btn-lg:hover, button.btn-success:hover, a.btn-success:hover, div#content button.search-button:hover, div.responsive a.next-step:hover, div.responsive button.next-step:hover, div.responsive button.cancel-step:hover, div.responsive a.cancel-step:hover, div.responsive button.previous-step:hover, div.responsive a.previous-step:hover  {
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
 background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%); /* FF3.6+ */
@@ -1515,7 +1516,7 @@ background-image: linear-gradient(to bottom,  rgba(255,255,255,0.2) 0%,rgba(255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#33ffffff',GradientType=0 ); /* IE6-8 */
  }
 
-.media-container {     
+.media-container {
     height: 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1530,7 +1531,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
     top: 0;
     width: 100%;
 }
- 
+
 button.navbar-toggle { z-index:100; }
 
 h2.tr-page-title, span.section-header-text, div.section-header, #title_container, h1, .header-container h2, div.tr-page-header h2, div#team_page_header h2 {
@@ -1538,7 +1539,7 @@ h2.tr-page-title, span.section-header-text, div.section-header, #title_container
 	font-weight:bold;
 }
 
-h3.menu-title, div.indicator-title { 
+h3.menu-title, div.indicator-title {
 font-weight:bold;
 }
 
@@ -1591,9 +1592,9 @@ color:#ffffff !important;
 .fieldContainer label { color: #555; }
 
 /* 2/9/19. DDS,LLC. New. Ticket header CSS */
-th.lc_Heading, th.lc_HeadingSort { 
+th.lc_Heading, th.lc_HeadingSort {
 background-color: #6b6bae;
-color: #fff; 
+color: #fff;
 padding-top: 10px;
 }
 
@@ -1611,7 +1612,7 @@ div.lo-EventBorderContainer, div.lo-BorderContainer { border:0px; }
 </p>
 <style type="text/css"><!--
 #sponsors {
-display: none; 
+display: none;
 }
 --></style>
 <p>
@@ -1620,7 +1621,7 @@ display: none;
 </p>
 <style type="text/css"><!--
 #sponsors {
-display: none; 
+display: none;
 }
 --></style>
 <p>
@@ -1629,17 +1630,17 @@ display: none;
 </p>
 <style type="text/css"><!--
 div.manageable-content {
-position: relative; 
+position: relative;
 width: 300px;
 }
 --></style>
 <p>::]]
 </p>
 <!--[if gte IE 9]>
-  <mce:style type="text/css"><! 
+  <mce:style type="text/css"><!
     .gradient {
        filter: none;
     }
-  
+
 -->
 <!--[endif] -->
