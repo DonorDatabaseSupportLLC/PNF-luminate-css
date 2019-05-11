@@ -49,44 +49,22 @@ padding:0;
 float:right;
 }
 
-/** 1/20/19. DDS,LLC. New Returning Participant or User Login **/
-a#user_type_email_login_info_link
-{
-    background: lightgray;
-    padding: 6px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: blue;
-}
-
-/** 1/20/19. DDS,LLC. New Returning Participant or User Login: mousehover **/
-a#user_type_email_login_info_link:hover
-{
-    padding: 6px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: red;
-    border-color: lightgray;
-    background: white;
-    border-style: outset;
-}
-
-/* 1/19/19. DDS,LLC. New. Team name of Team page */
-#team_name
+/* 1/19/19. DDS,LLC. New. Team name of Team page */ 
+#team_name 
 {
  margin-top: 0;
  font-weight: 700;
 }
 
-/* 1/19/19. DDS,LLC. New. */
+/* 1/19/19. DDS,LLC. New. */ 
 /* Get Started: Join or Form Team link at bottom of page */
 /* I would like to join Existing team/participant as individual */
 a#existing_team_container
 , a#individual_container
-, a#new_team_container
+, a#new_team_container 
 {
-    /* color: #001dff !important; */
-    /* font-weight: 600 !important; */
+    color: #001dff !important;
+    font-weight: 600 !important;
     text-decoration: none !important;
     background: #eceaea !important;
     padding: 5px !important;
@@ -95,7 +73,7 @@ a#existing_team_container
 }
 
 a#existing_team_container:hover
-, a#individual_container:hover
+, a#individual_container:hover 
 , a#new_team_container:hover
 {
     color: #ea1d1d !important;
@@ -108,7 +86,7 @@ a#existing_team_container:hover
 }
 
 /* 1/19/19. DDS,LLC. New. Donation form padding-Right: */
-.donation-form-content
+.donation-form-content 
 {
  padding-left: 150px;
 }
@@ -122,9 +100,9 @@ color: #e81d71;
 
 
 /*** 1/19/19. DDS,LLC. Update. personal page (Teamname link): Font-color/text ***/
-#personal_page_team_page_link
-{
-color: blue;
+#personal_page_team_page_link 
+{	
+color: blue;	
 text-decoration: none;
 }
 
@@ -167,7 +145,7 @@ margin:0;
 max-height:100%;
 padding:0;
 }
- }
+ } 
 
 /***** 11/23/18. Update. DDS,LLC  ****/
 a.btn, a.btn:visited, a.editBtn, a.editBtn:visited, input.btn, input.btnMini, input.btnSm, input.btnMed, input.btnLg {
@@ -179,7 +157,7 @@ a.btn, a.btn:visited, a.editBtn, a.editBtn:visited, input.btn, input.btnMini, in
 	font-weight: normal;
 	color: #FFF;
 	/* background: #0468ab url(../images/ga/btn_primary.gif) no-repeat 0px 0px; */
-        background: #385e9d !important;
+        background: #385e9d !important; 
 	border: 1px solid #046;
 	padding: 1px 4px;
 }
@@ -389,7 +367,7 @@ margin:0 0 10px;
 #nav.navbar-inverse .navbar-nav>.active>a,
 #nav.navbar-inverse .navbar-nav>.active>a:hover,
 #nav.navbar-inverse .navbar-nav>.active>a:focus {
-margin-top:0;
+margin-top:0;	
 margin-bottom:0;
 }
 }
@@ -537,7 +515,7 @@ height: auto;
 vertical-align: middle; /** DDS,LLC. New on 10-30-2018  **/
 }
 
-/**** 12/26/18. DDS,LLC. Change font/BG color from black/white to white/pink *****/
+/**** 12/26/18. DDS,LLC. Change font/BG color from black/white to white/pink *****/ 
 #footer {
 text-align:center;
 font-size:12px;
@@ -581,7 +559,7 @@ input#billing_last_namename,
 input#billing_first_namename,
 input#donor_email_addressname,
 input#donor_phonename {
-width: 400px !important;
+width: 400px !important;  
 }
 
 
@@ -606,27 +584,27 @@ div.responsive input, div.responsive select {
 	margin-bottom: 5px;
 	background: #fff;
 }
-
+ 
 /******** DDS,LLC. 12/2/18. New. donation page css ******** END **/
 
 
 /******** DDS,LLC. 12/29/18. New. Team page css ******** BEGIN **/
 /***  DDS,LLC. 12/29/18. New. Mouse Hover ***/
-.team-roster-participant-name > a:hover
+.team-roster-participant-name > a:hover 
 {
  color: red !important;
  text-decoration: none;
  font-weight: 700;
 }
 /******** DDS,LLC. 12/29/18. New. Team page css -participants names font-color */
-.team-roster-participant-name > a
+.team-roster-participant-name > a 
 {
 color: #1e32ec !important;
 text-decoration: none;
 }
 
 /** DDS,LLC. 1/19/18. New. DONATION NOW button in Team page Mouse Hover **/
-#sidebar_donate_button:hover
+#sidebar_donate_button:hover 
 {
 background: #fffefe;
 color: #f70b0b !important;
@@ -1083,9 +1061,9 @@ color: #FFFFFF;
 
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size/hover/bG color **/
 div.responsive button.next-step:hover,
-div.responsive button.cancel-step:hover,
+div.responsive button.cancel-step:hover, 
 div.responsive button.secondary-step:hover
-, div.responsive button.previous-step:hover
+, div.responsive button.previous-step:hover  
 {
 background: #e4d6d6  !important;
 border-color: #e4d6d6 !important;
@@ -1096,7 +1074,7 @@ font-weight: 650 !important;
 }
 
 /** DDS,LLC. 12/27/18. Changed. Cancel/Next Button size Matching **/
-div.responsive button.next-step,
+div.responsive button.next-step, 
 div.responsive button.cancel-step,
 div.responsive button.secondary-step,
 div.responsive button.previous-step
@@ -1241,17 +1219,13 @@ background:#f0b323;
 .form-info-message {
 padding:0 0 15px;
 }
-/*** 1/20/19. DDS,LLC. Update. added: border radius. remove url theme ****/
 div.progress-bar-step-container {
-background:#e8e9eb;  /*** url('../teamraiser-themes/theme1/images/bg-pattern-cross.png')***/
-background: #e8e9eb;
-margin: 0 4px 4px 0;
-padding: 10px;
-float: left;
-line-height: 1.35;
-border-radius: 10px;
+background:#e8e9eb url('../teamraiser-themes/theme1/images/bg-pattern-cross.png');
+margin:0 4px 4px 0;
+padding:10px;
+float:left;
+line-height:1.35;
 }
-
 div.progress-bar-step-text-container {
 vertical-align:middle;
 }
@@ -1400,25 +1374,12 @@ div#content button#fr_find_search_team,
 button#fr_find_search {
 width:auto;
 }
-
-
 div#content button.search-button {
 background:#8167d0;  /**** DDS,LLC. 11/23/18. #9e91c6;  *****/
 height:auto !important;
 width:auto;
 font-size: 14px;
 }
-
-/*** 1/20/19. DDS,LLC. New. Join or Find Team step 1 - Search Team ****/
-button#fr_find_search:hover
-{
-background: white;
-color: red;
-border-radius: 10px;
-border-color: lightgray;
-border-style: outset;
-}
-
 div#find_participant span#participant_find_search_text, div#find_participant span#team_find_search_text {
 display:inline;
 }
@@ -1517,16 +1478,6 @@ display:inline;
 float:right;
 }
 
-/*** 1/20/19. DDS,LLC. Update/New. join or form team progress bar ***/
-div.progress-bar-step-current div.progress-bar-step-text-container, div.progress-bar-step-current div.progress-bar-step-text-container {
-	color: white;
-	background: #8b6ee2;
-}
-
-/*** 1/20/19. DDS,LLC. Update/New. join or form team progress bar ***/
-div.progress-bar-step-current {
-	background:#8b6ee2;
-}
 
 /**** 12/26/18. DDS,LLC. Change Participant donation AMT font color from light gray to black  *****/
 .list-value-container {
@@ -1627,7 +1578,7 @@ a.donation-link.indicator-link:hover,
 a.donor-wall-link.indicator-link:hover
  {
   color: #fff !important;
-  font-weight:900 !important;
+  font-weight:900 !important; 
   font-family: Verdana !important;
   font-size: 30px !important;
 }
@@ -1635,7 +1586,7 @@ a.donor-wall-link.indicator-link:hover
 
 
 /** DDS,LLC. 12/27/18. New. Participant/Team member(s) Font color/size **/
-a.indicator-link:hover
+a.indicator-link:hover 
 {
 color: #f0230a !important;
 font-size: medium !important;
@@ -1692,7 +1643,7 @@ div.registration-page-container div.sub-section-body {
 .sponsors-footer a img:hover, .tr-social-icon:hover { opacity: 0.75 !important; }
 #nav-social-icons a:hover { background-color:transparent !important; }
 
-#nav li:hover {
+#nav li:hover { 
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
 background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 100%); /* FF3.6+ */
@@ -1704,7 +1655,7 @@ background-image: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#4dffffff',GradientType=0 ); /* IE6-8 */
  }
 
-.button.btn-primary.btn-block.btn-lg:hover, button.btn-success:hover, a.btn-success:hover, div#content button.search-button:hover, div.responsive a.next-step:hover, div.responsive button.next-step:hover, div.responsive button.cancel-step:hover, div.responsive a.cancel-step:hover, div.responsive button.previous-step:hover, div.responsive a.previous-step:hover, #personal_page_join_team_button:hover, #join_team_button:hover  {
+.button.btn-primary.btn-block.btn-lg:hover, button.btn-success:hover, a.btn-success:hover, div#content button.search-button:hover, div.responsive a.next-step:hover, div.responsive button.next-step:hover, div.responsive button.cancel-step:hover, div.responsive a.cancel-step:hover, div.responsive button.previous-step:hover, div.responsive a.previous-step:hover, #personal_page_join_team_button:hover, #join_team_button:hover  { 
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjIiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
 background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%); /* FF3.6+ */
@@ -1716,7 +1667,7 @@ background-image: linear-gradient(to bottom,  rgba(255,255,255,0.2) 0%,rgba(255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#33ffffff',GradientType=0 ); /* IE6-8 */
  }
 
-.media-container {
+.media-container {     
     height: 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1731,7 +1682,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', e
     top: 0;
     width: 100%;
 }
-
+ 
 button.navbar-toggle { z-index:100; }
 
 h2.tr-page-title, span.section-header-text, div.section-header, #title_container, h1, .header-container h2, div.tr-page-header h2, div#team_page_header h2 {
@@ -1739,7 +1690,7 @@ h2.tr-page-title, span.section-header-text, div.section-header, #title_container
 	font-weight:bold;
 }
 
-h3.menu-title, div.indicator-title {
+h3.menu-title, div.indicator-title { 
 font-weight:bold;
 }
 
@@ -1769,7 +1720,7 @@ margin:15px 0 0;
 div.responsive a:visited, div.responsive a:link, #leaderboards .indicator-list-row .list-name-container .indicator-link {
 color:#000;
 }
-a#sidebar_donate_button, a#join_team_button, a#personal_page_join_team_button {
+a#sidebar_donate_button, a#join_team_button, a#personal_page_join_team_button { 
 color: #fff !important;
 }
 
@@ -1802,7 +1753,7 @@ color:#ffffff !important;
 .fieldContainer label { color: #555; }
 th.lc_Heading, th.lc_HeadingSort {
 background-color: #8167d0; /*** DDS,LLC. 11/23/18. Changed. ****/
-color: #fff;
+color: #fff; 
 
 }
 th.lc_Heading p { color: #fff; }
@@ -1827,14 +1778,14 @@ div.team-honor-list-name {width:59%;}
 [[?x[[S334:view]]x::xTicketsx::
 <style>
 #sponsors {
-display: none;
+display: none; 
 }
 </style>
 ::]]
 [[?x[[S334:view]]x::xDetailx::
 <style>
 #sponsors {
-display: none;
+display: none; 
 }
 </style>
 ::]]
@@ -1842,7 +1793,7 @@ display: none;
 [[?x[[S8]]x::utype::
 <style>
 div.manageable-content {
-position: relative;
+position: relative; 
 width: 300px;
 }
 </style>::]]
