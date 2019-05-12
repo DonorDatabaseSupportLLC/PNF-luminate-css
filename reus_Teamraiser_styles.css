@@ -89,6 +89,25 @@ div.lightbox-login-form ul li label {
 	color: blue;
 }
 
+/* close button for lightbox login popup */
+.container-close {
+	color: blue !important;
+	 
+}
+
+/* registeration page - personal info form */
+#fr_part_co_list_sel, #fr_part_co_list_new {
+	width: 300px !important;
+	display: inline-block;
+	margin-bottom: 10px;
+	border-radius: 4px !important;
+}
+
+#cons_street1, #cons_street2, #cons_street3, #cons_city, #cons_state, #cons_zip_code, #cons_country,#cons_first_name, #cons_last_name, #cons_email, #cons_email_format
+, #cons_user_name, #cons_password, #cons_rep_password,#\34 179_2160_1_2222 {
+ width: 600px;
+}
+
 
 /* 1/19/19. DDS,LLC. New. Team name of Team page */ 
 #team_name 
@@ -97,9 +116,22 @@ div.lightbox-login-form ul li label {
  font-weight: 700;
 }
 
-.container-close {
-	color: blue !important;
-	 
+/* join as indv page - registeration */
+#next_step, #cancel {
+background: #8167d0 !important;
+border-color: #e4d6d6 !important;
+color: #fff !important;
+border-radius: 5px !important;
+height: 50px !important;
+font-weight: 700 !important;
+/* width: 100px; */
+}
+/* fundraising goal suggestion textbox */
+#fr_goal {
+	margin: 10px;
+	padding: 4px;
+	border-radius: 4px !important;
+	width: 130px;
 }
 
 /* 1/19/19. DDS,LLC. New. */ 
