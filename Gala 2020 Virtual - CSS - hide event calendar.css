@@ -1,6 +1,7 @@
 <style type="text/css"><!--
 /***********************************************************
          Hide Event title/date/time/Location  
+
 ***********************************************************/
 div.lo-CalendarDateInfoContainer {
     display: none;
