@@ -1,0 +1,13 @@
+<style type="text/css"><!--
+/***********************************************************
+         Hide Event title/date/time/Location  
+***********************************************************/
+div.lo-CalendarDateInfoContainer {
+    display: none;
+}
+/****** event title ****/
+h2#lo-EventTitle, p.subheading {
+    font-weight: bolder;
+    color: #000000;
+}
+--></style>

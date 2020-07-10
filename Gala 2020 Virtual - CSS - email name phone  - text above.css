@@ -1,0 +1,19 @@
+
+/*  another source:  https://blog.escapecreative.com/how-to-replace-text-with-css  */
+/*  Donor Database Support, LLC. added this code. 7/10/2020 per Amy H. */ 
+
+label#cons-reg-accepts_email-hidden {
+	visibility: hidden;
+	position: relative;
+}
+
+label#cons-reg-accepts_email-hidden:after {
+	visibility: visible;
+	position: absolute;
+	color: black;
+	font-weight:normal;
+	top: 0;
+	left: 0;
+	content: "Thank you for providing your email and cell phone number below.  You’ll receive periodic updates and news from Park Nicollet Foundation regarding the Spotlight Gala event. ";
+	
+}
