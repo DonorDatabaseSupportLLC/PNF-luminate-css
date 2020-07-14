@@ -1,0 +1,34 @@
+<style type="text/css">
+/***********************************************************
+         Hide Event title/date/time/Location  
+***********************************************************/
+div.lo-CalendarDateInfoContainer {
+    display: none;
+}
+/****** event title ****/
+h2#lo-EventTitle, p.subheading {
+    font-weight: bolder;
+    color: #000000;
+}
+/*  Donor Database Support, LLC. added this code. 7/10/2020 per Amy H. */ 
+label#cons-reg-accepts_email-hidden {
+	visibility: hidden;
+	position: relative;
+}
+
+label#cons-reg-accepts_email-hidden:after {
+	visibility: visible;
+	position: absolute;
+	color: black;
+	font-weight:normal;
+	top: 0;
+	left: 0;
+	content: "By submitting your email and cell phone below, you will receive Be Pink even updates and communications from Park Nicollet Foundation.";
+	
+}
+</style>
+
+
+
+
+
