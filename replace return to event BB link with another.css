@@ -1,0 +1,12 @@
+Gala return to Event Page link:
+https://www.healthpartners.com/foundations/park-nicollet/events/
+
+
+/* Hide return to event link and Register Now button */
+div#lo-return-to-cal /* , input#rsvp_signup*/ {
+    display:none;
+}
+
+<!-- show this link instead of return to event calendar BB -->
+<p>&nbsp;</p>
+<p><span style="color: #0000ff; font-size: 120%;"><strong><a title="Parknicollet Foundation Events" href="https://www.healthpartners.com/foundations/park-nicollet/events/" target="_blank"><span style="color: #0000ff;">Return to Events page</span></a></strong></span></p>
