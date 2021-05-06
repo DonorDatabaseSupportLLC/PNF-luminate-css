@@ -47,6 +47,8 @@ FROM(SELECT s.SubscriberKey
                                AND d.BatchID = s.BatchID 
                                AND LOWER(d.URL) like '%formstack%'
                                AND d.IsUnique = '1' 
+    WHERE s.EventDate BETWEEN CONVERT(DATE, DATEADD(m, -6, GetDate())) 
+						  AND CONVERT(DATE, DATEADD(m, -5, GetDate()))
 )w 
 WHERE rnk = 1 
 GROUP BY Jobid, EmailName, DateSend
