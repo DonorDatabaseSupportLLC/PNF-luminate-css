@@ -1,0 +1,56 @@
+
+SELECT w.EmailName
+       , sum(Sends)               AS Sends
+       , sum(Opens)               AS Opens
+       , sum(Clicks)              AS Clicks
+       , sum(unsubscribes)        AS unsubscribes
+       , sum(BounceHard)          AS BounceHard
+       , sum(BounceSoft)          AS BounceSoft
+       , count(distinct jobid)    AS Jobs
+       , count(distinct audience) AS Subscribers
+FROM(  SELECT DISTINCT 
+                j.EmailName
+               , j.Jobid     
+               , s.SubscriberKey AS audience
+               , CASE WHEN s.EventDate IS NOT NULL THEN 1 ELSE 0 END AS Sends
+               , CASE WHEN o.EventDate IS NOT NULL THEN 1 ELSE 0 END AS Opens
+               , CASE WHEN c.EventDate IS NOT NULL THEN 1 ELSE 0 END AS Clicks
+               , CASE WHEN u.EventDate IS NOT NULL THEN 1 ELSE 0 END AS unsubscribes
+               , CASE WHEN b.EventDate IS NOT NULL THEN 1 ELSE 0 END AS BounceHard
+               , CASE WHEN b.EventDate IS NOT NULL THEN 1 ELSE 0 END AS BounceSoft
+          FROM _sent s               
+          JOIN _job  j             ON j.jobid = s.jobid
+          LEFT JOIN _click c       ON c.SubscriberKey = s.SubscriberKey 
+                                  AND c.jobid = s.jobid 
+                                  AND c.ListID  = s.ListID 
+                                  AND c.BatchID = s.BatchID 
+                                  AND c.IsUnique = '1' 
+          LEFT JOIN _open o        ON o.SubscriberKey = s.SubscriberKey 
+                                  AND o.jobid = s.jobid 
+                                  AND o.ListID = s.ListID
+                                  AND o.BatchID  = s.BatchID 
+                                  AND o.IsUnique = '1'
+          LEFT JOIN _bounce b      ON b.SubscriberKey = s.SubscriberKey  
+                                  AND b.jobid   = s.jobid 
+                                  AND b.ListID  = s.ListID
+                                  AND b.BatchID = s.BatchID
+                                  AND LOWER(b.bounceCategory) = 'hard bounce' 
+                                  AND b.IsUnique = '1'
+          LEFT JOIN _bounce e      ON e.SubscriberKey = s.SubscriberKey  
+                                  AND e.jobid   = s.jobid 
+                                  AND e.ListID  = s.ListID
+                                  AND e.BatchID = s.BatchID
+                                  AND LOWER(e.bounceCategory) = 'soft bounce' 
+                                  AND e.IsUnique = '1'
+          LEFT JOIN _unsubscribe u ON u.SubscriberKey = s.SubscriberKey
+                                  AND u.jobid = s.jobid 
+                                  AND u.ListID = s.ListID 
+                                  AND u.BatchID = s.BatchID 
+                                  AND u.IsUnique = '1'  
+         WHERE s.jobid IN (10217025,10213700,10210047,10206669,10203732,10201347,
+                           10198795,10195580,10192380,10188895,10185945
+                          )  
+           AND j.TestEmailAddr = ''
+   )W 
+WHERE 1=1 
+GROUP BY w.EmailName 
