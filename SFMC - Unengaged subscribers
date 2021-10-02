@@ -1,0 +1,13 @@
+/* SFMC - Unengaged subscribers - who did not open/clicked email last 30 days*/
+select subscriberKey as id_email
+from [Data Extension]
+where not exists (select top 1 c.*
+				    from _Click c 
+				   where c.subscriberId = s.subscriberId
+				     and c.eventDate >= convert(date,getDate()-60)
+				)
+and not exists (select top 1 o.*
+				  from _Open o
+				 where o.subscriberId = s.subscriberId
+				   and o.eventDate >= convert(date,getDate()-60)
+				)
